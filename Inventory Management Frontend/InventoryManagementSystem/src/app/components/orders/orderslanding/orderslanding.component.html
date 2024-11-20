@@ -1,0 +1,46 @@
+<div class="container-fluid">
+    <h1>Mobile Inventory</h1>
+    <div class="row">
+      <div class="col-md-3" style="padding: 20px" *ngFor="let mobile of mobileData">
+        <div class="card shadow-sm border-light" style="border-radius: 10px;">
+          <img [src]="mobile.imageUrlPath" alt="Mobile Image" class="card-img-top mobile-image" />
+          <hr>
+          <div class="card-body">
+            <h5 class="card-title">{{ mobile.mobileName }}</h5>
+            <p class="card-text">Brand: {{ mobile.mobileBrand }}</p>
+            <p class="card-text">Price: {{ mobile.mobilePrice }}/-</p>
+            <p class="card-text">Stock: {{ mobile.mobileCount }}</p>
+            <button 
+              class="btn btn-primary w-100" 
+              (click)="addToCart(mobile)" 
+              [disabled]="mobile.mobileCount === 0">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="cart-section mt-4">
+      <h3 class="text-center">Billing</h3>
+      <div *ngIf="cart.length > 0">
+        <ul class="list-group">
+          <li *ngFor="let item of cart" class="list-group-item d-flex justify-content-between align-items-center">
+            <div>{{ item.mobileName }} - {{ item.quantity }} x {{ item.mobilePrice }}/-</div>
+          </li>
+        </ul>
+        <b><hr></b>
+        <p>
+          Total Price = {{totalprice}}/-
+        </p>
+        <div class="text-center mt-3">
+          <button class="btn btn-success" (click)="placeOrder()">Place Order</button>
+        </div>
+      </div>
+      <div *ngIf="cart.length === 0" class="text-center">
+        <p>Your cart is empty. Add items to cart to place an order.</p>
+      </div>
+      <div *ngIf="errorMessage" class="text-danger text-center mt-2">{{ errorMessage }}</div>
+    </div>
+  </div>
+  

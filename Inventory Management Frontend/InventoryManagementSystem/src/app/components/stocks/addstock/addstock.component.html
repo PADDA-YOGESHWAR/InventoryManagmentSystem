@@ -1,0 +1,66 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h1>Add New Phone Stock</h1>
+      <form [formGroup]="stockForm" class="card shadow-sm border-light" style="padding: 20px;" (ngSubmit)="onSubmit()" novalidate>
+        <div class="form-group">
+          <label for="phoneModelName">Phone Model Name</label>
+          <input type="text" id="phoneModelName" class="form-control" formControlName="phoneModelName"
+            placeholder="Enter Phone Model Name" />
+          <div *ngIf="stockForm.get('phoneModelName')?.touched && stockForm.get('phoneModelName')?.invalid"
+            class="text-danger">
+            <small *ngIf="stockForm.get('phoneModelName')?.hasError('required')">Phone Model Name is required.</small>
+            <small *ngIf="stockForm.get('phoneModelName')?.hasError('minlength')">Phone Model Name must be at least 3
+              characters long.</small>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phoneBrandName">Phone Brand Name</label>
+          <input type="text" id="phoneBrandName" class="form-control" formControlName="phoneBrandName"
+            placeholder="Enter Phone Brand Name" />
+          <div *ngIf="stockForm.get('phoneBrandName')?.touched && stockForm.get('phoneBrandName')?.invalid"
+            class="text-danger">
+            <small *ngIf="stockForm.get('phoneBrandName')?.hasError('required')">Phone Brand Name is required.</small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="phonePrice">Phone Price</label>
+          <input type="number" id="phonePrice" class="form-control" formControlName="phonePrice"
+            placeholder="Enter Phone Price" />
+          <div *ngIf="stockForm.get('phonePrice')?.touched && stockForm.get('phonePrice')?.invalid" class="text-danger">
+            <small *ngIf="stockForm.get('phonePrice')?.hasError('required')">Phone Price is required.</small>
+            <small *ngIf="stockForm.get('phonePrice')?.hasError('min')">Phone Price must be greater than 0.</small>
+          </div>
+        </div>
+
+    
+        <div class="form-group">
+          <label for="phoneQuantity">Phone Quantity</label>
+          <input type="number" id="phoneQuantity" class="form-control" formControlName="phoneQuantity"
+            placeholder="Enter Phone Quantity" />
+          <div *ngIf="stockForm.get('phoneQuantity')?.touched && stockForm.get('phoneQuantity')?.invalid"
+            class="text-danger">
+            <small *ngIf="stockForm.get('phoneQuantity')?.hasError('required')">Phone Quantity is required.</small>
+            <small *ngIf="stockForm.get('phoneQuantity')?.hasError('min')">Quantity must be at least 1.</small>
+          </div>
+        </div>
+
+        
+        <div class="form-group">
+          <label for="phoneImage">Upload Image</label>
+          <input type="file" id="phoneImage" class="form-control" (change)="onImageSelect($event)" />
+          <div *ngIf="imageError" class="text-danger">
+            <small>{{ imageError }}</small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button  type="submit" class="btn btn-primary" [disabled]="stockForm.invalid">
+            Add Stock
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

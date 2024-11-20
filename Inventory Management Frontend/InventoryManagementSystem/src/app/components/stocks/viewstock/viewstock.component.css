@@ -1,0 +1,27 @@
+.container-fluid {
+    padding: 20px;
+    background: linear-gradient(135deg, #f1f0ef, #a1a1a0);
+  }
+  
+  h1 {
+    color: #2C3E50;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  .mobile-image {
+    width: 75px;
+    height:75px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

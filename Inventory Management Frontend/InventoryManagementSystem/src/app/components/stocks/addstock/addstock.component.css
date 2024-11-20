@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+button {
+    margin: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.container-fluid {
+    height: 100vh;
+    background: linear-gradient(135deg, #f1f0ef, #a1a1a0);
+}
+

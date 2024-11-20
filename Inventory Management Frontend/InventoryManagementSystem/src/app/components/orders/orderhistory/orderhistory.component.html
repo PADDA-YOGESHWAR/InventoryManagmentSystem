@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <h1>Order History</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Mobile Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Order Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orderData">
+          <td>{{ order.orderId }}</td>
+          <td>{{ order.mobileName }}</td>
+          <td>{{ order.quantity }}</td>
+          <td>{{ order.price  }}</td>
+          <td>{{ order.orderDate | date: 'medium' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

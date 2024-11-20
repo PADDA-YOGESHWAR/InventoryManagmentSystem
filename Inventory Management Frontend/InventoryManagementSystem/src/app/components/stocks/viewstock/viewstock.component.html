@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <h1>Mobile Inventory</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Brand</th>
+          
+          <th>Price</th>
+          <th>Count</th>
+          
+          <th>Created At</th>
+          <th>Image</th>
+
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let mobile of mobileData">
+          <td>{{ mobile.mobileId }}</td>
+          <td>{{ mobile.mobileName }}</td>
+          <td>{{ mobile.mobileBrand }}</td>
+          
+          <td>{{ mobile.mobilePrice  }}</td>
+          <td>{{ mobile.mobileCount }}</td>
+          
+          <td>{{ mobile.createdAt | date: 'medium' }}</td>
+
+          <td>
+            <img [src]="mobile.imageUrlPath" alt="Mobile Image" class="mobile-image" />
+          </td>
+          <td>
+            <button (click)="deleteMobile(mobile.mobileId)" class="btn btn-danger"><i class="fa-solid fa-trash">Delete</i></button> <br><br>
+        
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
