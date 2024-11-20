@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\repository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\repository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\dto\\viewmobiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\dto\\viewmobiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|c:\\users\\285068\\desktop\\inventory management system backend\\inventory management\\inventory management system\\contracts\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9262845-8F23-4EA7-AD24-6A67E10454F5}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\contracts\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Program.cs",
+              "RelativeToolTip": "Inventory Management System\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:00:19.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewMobileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\DTO\\ViewMobileDTO.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\DTO\\ViewMobileDTO.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\DTO\\ViewMobileDTO.cs",
+              "RelativeToolTip": "Inventory Management System\\DTO\\ViewMobileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:39:45.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Contracts\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Contracts\\IInventoryRepository.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Contracts\\IInventoryRepository.cs",
+              "RelativeToolTip": "Inventory Management System\\Contracts\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:39:03.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Inventory Management System\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:48:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Repository\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Repository\\InventoryRepository.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Repository\\InventoryRepository.cs",
+              "RelativeToolTip": "Inventory Management System\\Repository\\InventoryRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:47:37.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Data\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Data\\InventoryDbContext.cs",
+              "ToolTip": "C:\\Users\\285068\\Desktop\\Inventory Management System Backend\\Inventory Management\\Inventory Management System\\Data\\InventoryDbContext.cs",
+              "RelativeToolTip": "Inventory Management System\\Data\\InventoryDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:47:33.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "ContainingType": "Inventory_Management_System.Controllers.InventoryController",
+    "Method": "DeleteMobile",
+    "RelativePath": "api/Inventory/DeleteMobile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventory_Management_System.Controllers.InventoryController",
+    "Method": "GetAllMobiles",
+    "RelativePath": "api/Inventory/GetAllStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventory_Management_System.Controllers.InventoryController",
+    "Method": "getOrders",
+    "RelativePath": "api/Inventory/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventory_Management_System.Controllers.InventoryController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/Inventory/placeOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItems",
+        "Type": "System.Collections.Generic.List\u00601[[Inventory_Management_System.Model.CartItem, Inventory Management System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventory_Management_System.Controllers.InventoryController",
+    "Method": "UploadMobiles",
+    "RelativePath": "api/Inventory/UploadStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MobileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobileBrand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobilePrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobileCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Media",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrlPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
